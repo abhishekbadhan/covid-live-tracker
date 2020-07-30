@@ -1,0 +1,16 @@
+.tablecard {
+    overflow-y: scroll;
+    height: 400px;
+}
+.tableheading {
+    text-align: initial;
+}
+
+.tableheading2 {
+    text-align: initial;
+}
+
+tbody tr:nth-of-type(odd){
+    background-color: rgb(243, 243, 243);
+}
+

@@ -1,0 +1,17 @@
+.mainpopup {
+    margin: 0px;
+}
+
+.leaflet-popup-content-wrapper .leaflet-popup-content {
+    text-align: center;
+    width: 141;
+    font-family: monospace;
+    margin: 0px;
+    background-color: #80808017;
+}
+
+
+.country_name {
+    font-weight: bolder;
+}
+

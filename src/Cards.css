@@ -1,0 +1,24 @@
+.numformat {
+    color: red;
+}
+
+
+.ACTIVE {
+    border-top: 10px solid rgb(255, 110, 74);
+}
+
+.RECOVERED {
+    border-top: 10px solid green;
+}
+
+.DEATHS {
+    border-top: 10px solid red;
+}
+
+
+.clickhere {
+    color:red;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: monospace;
+}

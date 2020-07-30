@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+/* .box {
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+} */
+
+.liveicon{
+    width: 50px;
+    position: fixed;
+    z-index: 450;
+    right: 0px;
+}
+
+
+.box .left-box{
+    flex-grow: 6;
+    /* margin-right: 10px; */
+}
+
+.header2  .MuiFormControl-root label  {
+    color: aliceblue;
+    /* font-size: 28px; */
+}
+
+.box .right-box {
+    flex-grow: 4;
+}
+
+.header2 .MuiFormControl-root{
+    border: 3px solid #e28332;
+    background-color:#f63e6cd4;
+}
+
+.box .right-box {
+    padding-left: 20px;
+}
+
+.box .left-box .left-box-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.box .left-box .left-box-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.map-box {
+    background-color: lightgoldenrodyellow;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid;
+}
+
+.map-box em {
+    color: crimson;
+    font-size: 14px;
+    font-family: monospace;
+}
+
+ 
+.leaflet-container {
+    height: 400px;
+  }
+
+
+.myinfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+
+@media ( max-width : 600px ){
+    .box {
+        flex-direction: column;
+    }
+    .box .right-box {
+        margin: 10px;
+    }
+    .box .left-box{
+        width: 100%;
+    }
+}
+
+
